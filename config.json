@@ -1,0 +1,84 @@
+{
+  "site": {
+    "title": "Wilapsek — personal site",
+    "brand": "Wilapsek",
+    "subtitle": "building opinionated web things",
+    "initials": "W",
+    "badge": "Shipping indie experiments",
+    "summary": "Engineer and product-minded builder focused on fast feedback loops, delightful UX, and pragmatic systems.",
+    "location": "Gdansk, PL",
+    "availability": "Open for freelance, contract, or collabs.",
+    "email": "hello@wilapsek.dev",
+    "primaryCta": { "label": "Email me", "href": "mailto:hello@wilapsek.dev" },
+    "secondaryCta": { "label": "View GitHub", "href": "https://github.com/Wilapsek" },
+    "resumeUrl": "https://example.com/resume.pdf"
+  },
+  "socials": [
+    { "label": "GitHub", "href": "https://github.com/Wilapsek" },
+    { "label": "LinkedIn", "href": "https://www.linkedin.com/in/wilapsek" },
+    { "label": "Twitter", "href": "https://twitter.com/wilapsek" }
+  ],
+  "now": [
+    "Refining a minimal personal CMS backed by static JSON.",
+    "Experimenting with Cloudflare Workers for fast APIs.",
+    "Designing a shared design token library across projects."
+  ],
+  "projects": [
+    {
+      "title": "Pulseboard",
+      "description": "A zero-latency dashboard for indie app metrics with opinionated defaults and tidy visuals.",
+      "tags": ["Next.js", "TypeScript", "Postgres", "Edge"],
+      "links": [
+        { "label": "Live", "href": "https://pulseboard.example.com" },
+        { "label": "Code", "href": "https://github.com/Wilapsek/pulseboard" }
+      ]
+    },
+    {
+      "title": "Focuslist",
+      "description": "Tiny desktop companion that syncs a daily plan across devices and hides distractions.",
+      "tags": ["Tauri", "Rust", "React"],
+      "links": [
+        { "label": "Download", "href": "https://focuslist.example.com" }
+      ]
+    },
+    {
+      "title": "Palette",
+      "description": "Theme generator that spits out consistent tokens for design systems and code editors.",
+      "tags": ["Design Tokens", "CLI", "Node"],
+      "links": [
+        { "label": "Code", "href": "https://github.com/Wilapsek/palette" }
+      ]
+    }
+  ],
+  "stack": [
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Node.js",
+    "Cloudflare Workers",
+    "PostgreSQL",
+    "Prisma",
+    "Tailwind",
+    "Docker",
+    "Vercel"
+  ],
+  "timeline": [
+    {
+      "title": "Indie builder",
+      "time": "2024 — now",
+      "description": "Shipping small products, automations, and design experiments for fun and profit."
+    },
+    {
+      "title": "Software Engineer",
+      "time": "2019 — 2024",
+      "description": "Full-stack web engineering across design systems, growth surfaces, and API work."
+    }
+  ],
+  "contact": {
+    "availability": "I like projects with clear constraints and fast iteration.",
+    "links": [
+      { "label": "Email", "href": "mailto:hello@wilapsek.dev" },
+      { "label": "Book a call", "href": "https://cal.com/" }
+    ]
+  }
+}

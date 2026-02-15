@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wilapsek — Personal Site</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="top-bar">
+      <div class="brand">
+        <span class="brand-mark" id="brandMark">W</span>
+        <div>
+          <div id="brandTitle">Wilapsek</div>
+          <div class="section-subtitle" id="brandSubtitle">personal site</div>
+        </div>
+      </div>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#work">Work</a>
+        <a href="#stack">Stack</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="button secondary" id="resumeBtn" href="#" target="_blank" rel="noopener">Resume</a>
+    </header>
+
+    <section class="hero">
+      <article class="hero-card">
+        <div class="badge" id="heroBadge">Currently shipping</div>
+        <h1 id="heroTitle">Hi, I am Wilapsek.</h1>
+        <p id="heroSummary">I build web things and keep a tight feedback loop between product, design, and code.</p>
+        <div class="meta-row" id="heroMeta"></div>
+        <div class="hero-actions">
+          <a class="button" id="primaryCta" href="#contact">Get in touch</a>
+          <a class="button secondary" id="secondaryCta" href="#work">View work</a>
+        </div>
+      </article>
+      <aside class="section">
+        <div class="section-header">
+          <div>
+            <div class="section-title">Now</div>
+            <div class="section-subtitle">What I am focused on</div>
+          </div>
+        </div>
+        <div class="timeline" id="nowList"></div>
+        <div class="section-subtitle" style="margin:12px 0 6px;">Socials</div>
+        <div class="socials" id="socialLinks"></div>
+      </aside>
+    </section>
+
+    <section class="section" id="work">
+      <div class="section-header">
+        <div>
+          <div class="section-title">Work & Projects</div>
+          <div class="section-subtitle">Selected things I shipped</div>
+        </div>
+      </div>
+      <div class="card-grid" id="projectsGrid"></div>
+    </section>
+
+    <section class="section" id="stack">
+      <div class="section-header">
+        <div>
+          <div class="section-title">Stack</div>
+          <div class="section-subtitle">Tools I reach for first</div>
+        </div>
+      </div>
+      <div class="stack" id="stackList"></div>
+    </section>
+
+    <section class="section" id="timeline">
+      <div class="section-header">
+        <div>
+          <div class="section-title">Highlights</div>
+          <div class="section-subtitle">Roles, wins, and experiments</div>
+        </div>
+      </div>
+      <div class="timeline" id="timelineList"></div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="section-header">
+        <div>
+          <div class="section-title">Contact</div>
+          <div class="section-subtitle">Let us build something together</div>
+        </div>
+      </div>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Availability</h3>
+          <p id="availabilityText">Open for interesting collaborations.</p>
+          <div class="links-inline" id="contactLinks"></div>
+        </div>
+        <div class="card">
+          <h3>Other channels</h3>
+          <p>Find me on the platforms I am most active on.</p>
+          <div class="socials" id="contactSocials"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="footerCopy">Built by Wilapsek.</footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
