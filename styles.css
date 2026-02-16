@@ -171,7 +171,7 @@ a:hover {
   display: grid;
   grid-template-columns: 1.1fr 0.9fr;
   gap: 24px;
-  align-items: center;
+  align-items: stretch; /* Stretch children so the right card matches the hero card height */
 }
 
 .hero-card {
@@ -180,6 +180,35 @@ a:hover {
   border-radius: var(--radius-lg);
   padding: 28px;
   box-shadow: var(--shadow);
+}
+
+/* Keep the Now card height in sync with the hero card even when the list length changes */
+.hero aside.section {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.hero aside .timeline,
+.hero aside .socials {
+  flex-shrink: 0;
+}
+
+.hero aside .timeline {
+  flex: 1;
+  overflow: auto;
+  padding-right: 4px;
+}
+
+.hero aside .timeline::-webkit-scrollbar {
+  width: 6px;
+}
+
+.hero aside .timeline::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 999px;
 }
 
 .badge {

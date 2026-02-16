@@ -173,6 +173,30 @@ function renderContact(contact, socials) {
   renderSocials('contactSocials', socials || []);
 }
 
+function syncNowCardHeight() {
+  const heroCard = document.querySelector('.hero-card');
+  const nowCard = document.querySelector('.hero aside.section');
+  if (!heroCard || !nowCard) return;
+  if (window.innerWidth <= 900) {
+    nowCard.style.height = 'auto';
+    return;
+  }
+  const height = heroCard.getBoundingClientRect().height;
+  nowCard.style.height = `${height}px`;
+}
+
+function setupHeroHeightSync() {
+  const heroCard = document.querySelector('.hero-card');
+  if (!heroCard) return;
+
+  const update = () => syncNowCardHeight();
+  update();
+
+  const resizeObserver = new ResizeObserver(update);
+  resizeObserver.observe(heroCard);
+  window.addEventListener('resize', update);
+}
+
 function renderBrand(site) {
   setText('brandTitle', site.brand || 'Personal site');
   setText('brandSubtitle', site.subtitle || '');
@@ -226,6 +250,7 @@ async function init() {
   renderStack(data.stack || []);
   renderTimeline(data.timeline || []);
   renderContact(data.contact || {}, data.socials || []);
+  setupHeroHeightSync();
 }
 
 init();
