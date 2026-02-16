@@ -1,0 +1,7 @@
+name = "wilapsek"
+main = "_worker.js"
+compatibility_date = "2025-01-01"
+
+# Serve the repository root as static assets; Pages/Workers binds this as env.ASSETS
+# when you run `wrangler dev` or deploy.
+assets = { directory = ".", binding = "ASSETS" }
