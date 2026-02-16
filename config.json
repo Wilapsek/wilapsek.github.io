@@ -1,84 +1,58 @@
 {
   "site": {
-    "title": "Wilapsek — personal site",
+    "title": "Wilapsek",
     "brand": "Wilapsek",
-    "subtitle": "building opinionated web things",
+    "subtitle": "Worlds bestest vibe coder-er",
     "initials": "W",
-    "badge": "Shipping indie experiments",
-    "summary": "Engineer and product-minded builder focused on fast feedback loops, delightful UX, and pragmatic systems.",
-    "location": "Gdansk, PL",
-    "availability": "Open for freelance, contract, or collabs.",
-    "email": "hello@wilapsek.dev",
-    "primaryCta": { "label": "Email me", "href": "mailto:hello@wilapsek.dev" },
+    "badge": "Making fun things for no reason",
+    "summary": "I'm Wilapsek, a teen who loves computers, gaming and good user experiences.",
+    "location": "Canberra, Australia",
+    "availability": "Not avaliable for hire, but always open to chatting about cool projects and ideas.",
+    "email": "me@wilapsek.com",
+    "primaryCta": { "label": "Email me", "href": "mailto:me@wilapsek.com" },
     "secondaryCta": { "label": "View GitHub", "href": "https://github.com/Wilapsek" },
-    "resumeUrl": "https://example.com/resume.pdf"
+    "resumeUrl": "https://example.com"
   },
   "socials": [
     { "label": "GitHub", "href": "https://github.com/Wilapsek" },
-    { "label": "LinkedIn", "href": "https://www.linkedin.com/in/wilapsek" },
-    { "label": "Twitter", "href": "https://twitter.com/wilapsek" }
+    { "label": "YouTube", "href": "https://www.youtube.com/@Wilapsek" },
+    { "label": "Tiktok", "href": "https://www.tiktok.com/wilapsek" }
   ],
   "now": [
-    "Refining a minimal personal CMS backed by static JSON.",
-    "Experimenting with Cloudflare Workers for fast APIs.",
-    "Designing a shared design token library across projects."
+    "Making Jettic Games, an online web game library",
+    "Creating a Minecraft Server, Abloko Network"
   ],
   "projects": [
     {
-      "title": "Pulseboard",
-      "description": "A zero-latency dashboard for indie app metrics with opinionated defaults and tidy visuals.",
-      "tags": ["Next.js", "TypeScript", "Postgres", "Edge"],
+      "title": "Jettic Games",
+      "description": "Online web game library with a focus on quality, great UX and scalablity.",
+      "tags": ["Next.js"],
       "links": [
-        { "label": "Live", "href": "https://pulseboard.example.com" },
-        { "label": "Code", "href": "https://github.com/Wilapsek/pulseboard" }
-      ]
-    },
-    {
-      "title": "Focuslist",
-      "description": "Tiny desktop companion that syncs a daily plan across devices and hides distractions.",
-      "tags": ["Tauri", "Rust", "React"],
-      "links": [
-        { "label": "Download", "href": "https://focuslist.example.com" }
-      ]
-    },
-    {
-      "title": "Palette",
-      "description": "Theme generator that spits out consistent tokens for design systems and code editors.",
-      "tags": ["Design Tokens", "CLI", "Node"],
-      "links": [
-        { "label": "Code", "href": "https://github.com/Wilapsek/palette" }
+        { "label": "Code", "href": "https://github.com/Wilapsek" }
       ]
     }
   ],
   "stack": [
-    "TypeScript",
-    "React",
-    "Next.js",
-    "Node.js",
-    "Cloudflare Workers",
-    "PostgreSQL",
-    "Prisma",
-    "Tailwind",
-    "Docker",
-    "Vercel"
+    "HTML",
+    "Javascript",
+    "CSS"
   ],
   "timeline": [
     {
-      "title": "Indie builder",
-      "time": "2024 — now",
-      "description": "Shipping small products, automations, and design experiments for fun and profit."
+      "title": "Developing Jettic Games",
+      "time": "2025 = Now",
+      "description": "Hard at work building Jettic Games, an online web game library. Focused on quality, great UX and scalablity."
     },
     {
-      "title": "Software Engineer",
-      "time": "2019 — 2024",
-      "description": "Full-stack web engineering across design systems, growth surfaces, and API work."
+      "title": "Google Sites",
+      "time": "2022 — 2024",
+      "description": "Created a webgames library using Google Sites, which was a great learning experience... I learned that Google Sites is genuinely awful at scalability."
     }
   ],
   "contact": {
-    "availability": "I like projects with clear constraints and fast iteration.",
+    "availability": "Not avaliable for hire, but always open to chatting about cool projects and ideas.",
     "links": [
-      { "label": "Email", "href": "mailto:hello@wilapsek.dev" },
-      { "label": "Book a call", "href": "https://cal.com/" }
+      { "label": "Email", "href": "mailto:me@wilapsek.com" }
     ]
   }
 }
