@@ -10,7 +10,8 @@ Simple JSON-driven personal site. Everything on the page is populated from `conf
 ## Cloudflare Workers / Pages
 - Local preview with Workers: `wrangler dev`
 - Deploy as a Worker: `wrangler deploy`
-- Deploy on Pages: create a Pages project pointing at this repo, set Build command to `none` and Output directory to `.`, and enable the `_worker.js` runtime. Static assets are served via `env.ASSETS` with a fallback to `index.html` for routes without file extensions.
+- Deploy on Pages: create a Pages project pointing at this repo, set Build command to `none` and Output directory to `.`, and enable the `_worker.js` runtime. Static assets are served via `env.ASSETS` with a fallback to `index.html` for routes without file extensions. Do not run `wrangler deploy` in the Pages build step; Pages will deploy automatically.
+- The included `.assetsignore` excludes `_worker.js` from being uploaded as a static asset while it remains the Worker entrypoint.
 
 ## Files
 - `index.html` – layout and placeholders.
